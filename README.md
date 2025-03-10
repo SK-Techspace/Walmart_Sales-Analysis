@@ -30,12 +30,12 @@ This project is an end-to-end data analysis initiative designed to extract meani
 ### 4. Install Required Libraries and Load Data
    - **Libraries**: Install necessary Python libraries using:
      ```bash
-     pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
+     pip install pandas numpy sqlalchemy psycopg2
      ```
    - **Loading Data**: Read the data into a Pandas DataFrame for initial analysis and transformations.
 
 ### 5. Explore the Data
-   - **Goal**: Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
+   - **Task**: Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
    - **Analysis**: Use functions like `.info()`, `.describe()`, and `.head()` to get a quick overview of the data structure and statistics.
 
 ### 6. Data Cleaning
@@ -49,12 +49,12 @@ This project is an end-to-end data analysis initiative designed to extract meani
    - **Create New Columns**: Calculate the `Total Amount` for each transaction by multiplying `unit_price` by `quantity` and adding this as a new column.
    - **Enhance Dataset**: Adding this calculated field will streamline further SQL analysis and aggregation tasks.
 
-### 8. Load Data into MySQL and PostgreSQL
-   - **Set Up Connections**: Connect to MySQL and PostgreSQL using `sqlalchemy` and load the cleaned data into each database.
-   - **Table Creation**: Set up tables in both MySQL and PostgreSQL using Python SQLAlchemy to automate table creation and data insertion.
+### 8. Load Data into PostgreSQL
+   - **Set Up Connections**: Connect to PostgreSQL using `sqlalchemy` and load the cleaned data into each database.
+   - **Table Creation**: Set up tables in PostgreSQL using Python SQLAlchemy to automate table creation and data insertion.
    - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
 
-### 9. SQL Analysis: Complex Queries and Business Problem Solving
+### 9. SQL Analysis: Complex Querying for Solving Business Problems
    - **Business Problem-Solving**: Write and execute complex SQL queries to answer critical business questions, such as:
      - Revenue trends across branches and categories.
      - Identifying best-selling product categories.
@@ -75,10 +75,10 @@ This project is an end-to-end data analysis initiative designed to extract meani
 
 ## Requirements
 
-- **Python 3.8+**
-- **SQL Databases**: MySQL, PostgreSQL
+- **Python 3.13+**
+- **SQL Databases**: PostgreSQL
 - **Python Libraries**:
-  - `pandas`, `numpy`, `sqlalchemy`, `mysql-connector-python`, `psycopg2`
+  - `pandas`, `numpy`, `sqlalchemy`, `psycopg2`
 - **Kaggle API Key** (for data downloading)
 
 ## Getting Started
@@ -120,12 +120,6 @@ Possible extensions to this project:
 - Integration with a dashboard tool (e.g., Power BI or Tableau) for interactive visualization.
 - Additional data sources to enhance analysis depth.
 - Automation of the data pipeline for real-time data ingestion and analysis.
-
----
-
-## License
-
-This project is licensed under the MIT License. 
 
 ---
 
