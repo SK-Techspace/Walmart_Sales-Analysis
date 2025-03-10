@@ -14,7 +14,7 @@ This project is an end-to-end data analysis initiative designed to extract meani
 
 ### 1. Set Up the Environment
    - **Tools Used**: Visual Studio Code (VS Code), Python, SQL (PostgreSQL)
-   - **Goal**: Create a structured workspace within VS Code and organize project folders for smooth development and data handling.
+   - **Task**: Create a structured workspace within VS Code and organize project folders for smooth development and data handling.
 
 ### 2. Set Up Kaggle API
    - **API Setup**: Obtain your Kaggle API token from [Kaggle](https://www.kaggle.com/) by navigating to your profile settings and downloading the JSON file.
