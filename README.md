@@ -46,7 +46,7 @@ This project is an end-to-end data analysis initiative designed to extract meani
    - **Validation**: Check for any remaining inconsistencies and verify the cleaned data.
 
 ### 7. Feature Engineering
-   - **Create New Columns**: Calculate the `Total Amount` for each transaction by multiplying `unit_price` by `quantity` and adding this as a new column.
+   - **Create New Columns**: Calculate the `total_price` for each transaction by multiplying `unit_price` by `quantity` and adding this as a new column.
    - **Enhance Dataset**: Adding this calculated field will streamline further SQL analysis and aggregation tasks.
 
 ### 8. Load Data into PostgreSQL
